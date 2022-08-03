@@ -35,20 +35,11 @@ const contact = () => {
             </div>
           </Link>
           <div className="hidden md:block">
-            <h1 className="font-sans font-normal text-lg text-gray-400 md:text-base lg:text-lg">
-              Profile
-            </h1>
-            <h1 className="font-sans font-normal text-lg text-gray-400 md:text-base lg:text-lg">
-              Experience
-            </h1>
-            <h1 className="font-sans font-normal text-lg text-gray-400 md:text-base lg:text-lg">
-              Skill
-            </h1>
-            <div>
-              <h1 className="font-sans font-normal text-lg text-gray-400 md:text-base lg:text-lg">
+            <a href="/">
+              <h1 className="font-sans font-normal text-lg text-gray-400 hover:text-black md:text-base lg:text-lg">
                 Back to home
               </h1>
-            </div>
+            </a>
           </div>
           <div className="hidden md:block">
             <div className="flex md:flex">
