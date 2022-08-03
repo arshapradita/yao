@@ -37,7 +37,7 @@ const contact = () => {
           </Link>
           <div className="hidden md:block">
             <Link href="/">
-              <h1 className="font-sans font-normal text-lg text-gray-400 hover:text-black md:text-base lg:text-lg">
+              <h1 className="font-sans font-normal text-lg cursor-pointer text-gray-400 hover:text-black md:text-base lg:text-lg">
                 Back to home
               </h1>
             </Link>
