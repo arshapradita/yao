@@ -35,11 +35,11 @@ const contact = () => {
             </div>
           </Link>
           <div className="hidden md:block">
-            <a href="/">
+            <Link href="/">
               <h1 className="font-sans font-normal text-lg text-gray-400 hover:text-black md:text-base lg:text-lg">
                 Back to home
               </h1>
-            </a>
+            </Link>
           </div>
           <div className="hidden md:block">
             <div className="flex md:flex">
