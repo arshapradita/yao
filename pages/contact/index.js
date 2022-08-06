@@ -22,11 +22,11 @@ const contact = () => {
         />
       </Head>
       <div
-        className="flex flex-col w-screen h-screen md:flex md:flex-row md:divide-slate-600
-          md:divide-x md:divide-dashed lg:flex xl:flex "
+        className="flex flex-col w-screen h-screen md:flex md:flex-row md:divide-white
+          md:divide-x-2 md:divide-dashed lg:flex xl:flex"
       >
         <div
-          className="px-5 py-3 w-full flex absolute z-10 justify-between border-dashed border-b border-b-gray-500 md:border-none md:w-4/12 md:py-10 md:relative md
+          className="px-5 py-3 w-full flex absolute z-10 justify-between border-dashed border-b-2 border-b-white md:border-none md:w-4/12 md:py-10 md:relative md
         :h-screen md:flex md:flex-col xl:px-20 lg:px-10 md:px-8"
         >
           <Link href="/">
@@ -105,12 +105,12 @@ const contact = () => {
             </Menu>
           </div>
         </div>
-        <div className="h-full w-full z-0 overflow-x-hidden px-5 flex flex-col justify-center md:top-0 md:py-10 md:w-8/12">
+        <div className="h-full w-full z-0 overflow-x-hidden relative top-16 mt-2 px-5 flex flex-col justify-center md:top-0 md:mt-0 md:py-10 md:w-8/12 bg-gray-900">
           <div className="w-full lg:w-4/5 lg:mx-auto">
-            <h1 className="font-sans font-medium text-2xl text-center md:text-2xl text-black mb-1">
+            <h1 className="font-sans font-medium text-2xl text-center md:text-2xl text-white mb-1">
               Get In Touch
             </h1>
-            <p className="font-sans font-normal text-sm md:text-base text-center text-gray-500 mt-3 mb-3">
+            <p className="font-sans font-normal text-sm md:text-base text-center text-gray-400 mt-3 mb-3">
               Although I’m currently looking for any new opportunities, my inbox
               is always open. Whether you have a question or just want to say
               hi, I’ll try my best to get back to you!
@@ -119,7 +119,7 @@ const contact = () => {
               <div class="flex space-x-1 justify-center">
                 <button
                   type="button"
-                  className=" w-24 h-10 border-2 mx-auto rounded-lg text-black border-black border-solid text-center hover:bg-black hover:border-0 hover:text-white ease-in transition"
+                  className=" w-24 h-10 border-2 mx-auto rounded-lg text-white border-white border-solid text-center hover:bg-white hover:border-0 hover:text-black ease-in transition"
                 >
                   Say Hello!
                 </button>

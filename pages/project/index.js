@@ -5,7 +5,6 @@ import email from "../../public/icons8-gmail.svg";
 import github from "../../public/icons8-github.svg";
 import linkedin from "../../public/icons8-linkedin.svg";
 import hamburger from "../../public/hamburger.svg";
-import sapro from "../../public/sa-pro.png";
 import { Menu, Transition } from "@headlessui/react";
 import { Fragment } from "react";
 
@@ -24,10 +23,10 @@ const contact = () => {
       </Head>
       <div
         className="flex flex-col w-screen h-screen md:flex md:flex-row md:divide-white
-          md:divide-x-2 md:divide-dashed lg:flex xl:flex "
+          md:divide-x-2 md:divide-dashed lg:flex xl:flex"
       >
         <div
-          className="px-5 py-3 w-full flex absolute z-10 justify-between border-dashed border-b border-b-gray-500 md:border-none md:w-4/12 md:py-10 md:relative md
+          className="px-5 py-3 w-full flex absolute z-10 justify-between border-dashed border-b-2 border-b-white md:border-none md:w-4/12 md:py-10 md:relative md
         :h-screen md:flex md:flex-col xl:px-20 lg:px-10 md:px-8"
         >
           <Link href="/">
@@ -110,8 +109,8 @@ const contact = () => {
           {/* <h1 className="font-sans pb-5 pt-3 text-base md:text-xl text-white font-regular">
             Project --
           </h1> */}
-          <div className="flex flex-wrap gap-5 pt-3 md:pt-0 w-full">
-            <div className=" w-full h-96 md:w-full lg:w-full lg:h-96 xl:w-5/12 px-5 py-5 flex flex-col justify-between bg-white rounded-xl hover:drop-shadow-xl">
+          <div className="flex flex-wrap gap-5 pt-3 md:pt-0 w-full justify-evenly">
+            <div className=" w-full h-96 md:w-full lg:w-[19rem] lg:h-96 xl:w-[24rem] px-5 py-5 flex flex-col justify-between bg-white rounded-xl hover:drop-shadow-xl">
               <div className="w-full h-48 rounded-lg bg-sapro bg-cover"></div>
               <p className="text-gray-800 font-sans text-lg font-normal leading-5">
                 An e-commerce website to sell products
@@ -134,7 +133,7 @@ const contact = () => {
                 <a href="https://safra-ars.netlify.app/" target="blank">
                   <button
                     type="button"
-                    className=" w-36 h-10 border-2 mx-auto rounded-lg text-gray-800 border-gray-300 border-solid text-center hover:bg-black hover:border-0 hover:text-white ease-in transition"
+                    className="w-24 md:w-36 lg:w-28 h-10 border-2 mx-auto rounded-lg text-gray-800 border-gray-300 border-solid text-center hover:bg-black hover:border-0 hover:text-white ease-in transition"
                   >
                     Preview
                   </button>
@@ -145,14 +144,14 @@ const contact = () => {
                 >
                   <button
                     type="button"
-                    className=" w-36 h-10 border-2 mx-auto rounded-lg text-gray-800 border-gray-300 border-solid text-center hover:bg-black hover:border-0 hover:text-white ease-in transition"
+                    className="w-24 md:w-36 lg:w-28 h-10 border-2 mx-auto rounded-lg text-gray-800 border-gray-300 border-solid text-center hover:bg-black hover:border-0 hover:text-white ease-in transition"
                   >
                     Code
                   </button>
                 </a>
               </div>
             </div>
-            <div className=" w-full h-96 md:w-full lg:w-full lg:h-96 xl:w-5/12 px-5 py-5 flex flex-col justify-between bg-white rounded-xl hover:drop-shadow-xl">
+            <div className=" w-full h-96 md:w-full lg:w-[19rem] lg:h-96 xl:w-[24rem] px-5 py-5 mb-5 flex flex-col justify-between bg-white rounded-xl hover:drop-shadow-xl">
               <div className="w-full h-48 rounded-lg bg-wepro bg-cover"></div>
               <p className="text-gray-800 font-sans text-lg font-normal leading-5">
                 A website that displays live budget charts
@@ -172,7 +171,7 @@ const contact = () => {
                 <a href="https://dinas-ars.netlify.app/" target="blank">
                   <button
                     type="button"
-                    className=" w-36 h-10 border-2 mx-auto rounded-lg text-gray-800 border-gray-300 border-solid text-center hover:bg-black hover:border-0 hover:text-white ease-in transition"
+                    className="w-24 md:w-36 lg:w-28 h-10 border-2 mx-auto rounded-lg text-gray-800 border-gray-300 border-solid text-center hover:bg-black hover:border-0 hover:text-white ease-in transition"
                   >
                     Preview
                   </button>
@@ -180,7 +179,7 @@ const contact = () => {
                 <a className="cursor-not-allowed">
                   <button
                     type="button"
-                    className=" w-36 h-10 border-2 cursor-not-allowed mx-auto rounded-lg text-gray-800 border-gray-300 border-solid text-center hover:bg-black hover:border-0 hover:text-white ease-in transition"
+                    className="w-24 md:w-36 lg:w-28 h-10 border-2 cursor-not-allowed mx-auto rounded-lg text-gray-800 border-gray-300 border-solid text-center hover:bg-black hover:border-0 hover:text-white ease-in transition"
                   >
                     Code
                   </button>

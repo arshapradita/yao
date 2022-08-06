@@ -23,11 +23,11 @@ const about = () => {
         />
       </Head>
       <div
-        className="flex flex-col w-screen h-screen md:flex md:flex-row md:divide-slate-600
-          md:divide-x md:divide-dashed lg:flex xl:flex "
+        className="flex flex-col w-screen h-screen md:flex md:flex-row md:divide-white
+          md:divide-x-2 md:divide-dashed lg:flex xl:flex "
       >
         <div
-          className="px-5 py-3 w-full flex absolute justify-between border-dashed border-b border-b-gray-500 md:border-none md:w-4/12 md:py-10 md:relative md
+          className="px-5 py-3 z-10 w-full flex absolute justify-between border-dashed border-b-2 border-b-white md:border-none md:w-4/12 md:py-10 md:relative md
         :h-screen md:flex md:flex-col xl:px-20 lg:px-10 md:px-8"
         >
           <Link href="/">
@@ -106,15 +106,15 @@ const about = () => {
             </Menu>
           </div>
         </div>
-        <div className="h-full w-full relative z-0 overflow-x-hidden top-20 px-5 md:top-0 md:py-10 md:w-8/12">
+        <div className="h-full w-full relative top-16 mt-2 z-0 overflow-x-hidden px-5 md:mt-0 md:top-0 md:py-10 md:w-8/12 bg-gray-900">
           <div>
             <div className="w-1/2 md:w-4/12 xl:w-3/12">
               <Image src={profile}></Image>
             </div>
-            <h1 className="font-sans font-medium text-base md:text-lg text-black leading-10">
+            <h1 className="font-sans font-medium text-base md:text-lg text-white leading-10">
               Arsha Setya Pradita / Front-end Developer
             </h1>
-            <p className="font-sans font-normal text-sm text-justify md:text-base text-gray-500 mb-5 ">
+            <p className="font-sans font-normal text-sm text-justify md:text-base text-gray-400 mb-5 ">
               Born in kediri and now live in sidoarjo. Currently working
               freelance for website creation. Im now graduated with a bachelors
               degree in informatics from Muhammadiyah University of Sidoarjo. In
@@ -124,74 +124,74 @@ const about = () => {
             </p>
           </div>
           <div>
-            <h1 className="font-sans font-medium text-base md:text-lg text-black mb-1">
+            <h1 className="font-sans font-medium text-base md:text-lg text-white mb-1">
               Experience
             </h1>
             <hr></hr>
-            <p className="font-sans font-normal text-sm md:text-base text-justify text-gray-500 mt-3 mb-3">
-              <span className="font-sans font-medium text-sm md:text-base text-gray-500 mb-1">
+            <p className="font-sans font-normal text-sm md:text-base text-justify text-gray-400 mt-3 mb-3">
+              <span className="font-sans font-medium text-sm md:text-base text-gray-200 mb-1">
                 IT Staff - PT Safra Asia Berjaya
               </span>{" "}
               <br></br>( Mey 2020 - June 2021 )
             </p>
             <ul className="list-outside list-disc px-5">
-              <li className="font-sans font-normal text-sm md:text-base text-left text-gray-500">
+              <li className="font-sans font-normal text-sm md:text-base text-left text-gray-400">
                 Built an e-commerce website by selling 9 products owned by the
                 company
               </li>
-              <li className="font-sans font-normal text-sm md:text-base text-left text-gray-500">
+              <li className="font-sans font-normal text-sm md:text-base text-left text-gray-400">
                 Maintained the company's e-commerce website as well as hardware
                 such as printers and computers in the office
               </li>
-              <li className="font-sans font-normal text-sm md:text-base text-left text-gray-500">
+              <li className="font-sans font-normal text-sm md:text-base text-left text-gray-400">
                 Help make a report on goods that have been sold on the company's
                 e-commerce website
               </li>
             </ul>
-            <p className="font-sans font-normal text-sm md:text-base text-justify text-gray-500 mt-3 mb-3">
-              <span className="font-sans font-medium text-sm md:text-base text-gray-500 mb-1">
+            <p className="font-sans font-normal text-sm md:text-base text-justify text-gray-400 mt-3 mb-3">
+              <span className="font-sans font-medium text-sm md:text-base text-gray-200 mb-1">
                 Internship - Dinas Perumahan Rakyat, Kawasan Permukiman dan
                 Cipta Karya Provinsi Jawa Timur
               </span>{" "}
               <br></br>( March 2019 - May 2019 )
             </p>
             <ul className="list-outside list-disc px-5 mb-5">
-              <li className="font-sans font-normal text-sm text-left md:text-base text-gray-500">
+              <li className="font-sans font-normal text-sm text-left md:text-base text-gray-400">
                 Built a website to display direct and indirect shopping charts
                 in 5-sector fields
               </li>
-              <li className="font-sans font-normal text-sm text-left md:text-base text-gray-500">
+              <li className="font-sans font-normal text-sm text-left md:text-base text-gray-400">
                 Collected direct and indirect expenditure data in 5-sector
                 sectors
               </li>
-              <li className="font-sans font-normal text-sm text-left md:text-base text-gray-500">
+              <li className="font-sans font-normal text-sm text-left md:text-base text-gray-400">
                 Assisted recap data regarding the recapitulation of the proposed
                 APBD program in 2019
               </li>
             </ul>
           </div>
           <div>
-            <h1 className="font-sans font-medium text-base md:text-lg text-black mb-1">
+            <h1 className="font-sans font-medium text-base md:text-lg text-white mb-1">
               Technical Skill
             </h1>
             <hr></hr>
-            <p className="font-sans font-normal text-sm md:text-base text-left text-gray-500 mt-3 mb-3">
-              <span className="font-sans font-medium text-sm md:text-base text-gray-500 mb-1">
+            <p className="font-sans font-normal text-sm md:text-base text-left text-gray-400 mt-3 mb-3">
+              <span className="font-sans font-medium text-sm md:text-base text-gray-400 mb-1">
                 Languages :
               </span>{" "}
               JavaScript, HTML, CSS, PHP
               <br></br>{" "}
-              <span className="font-sans font-medium text-sm md:text-base text-gray-500 mb-1">
+              <span className="font-sans font-medium text-sm md:text-base text-gray-400 mb-1">
                 Frameworks :
               </span>{" "}
               React (Next), Laravel
               <br></br>
-              <span className="font-sans font-medium text-sm md:text-base text-gray-500 mb-1">
+              <span className="font-sans font-medium text-sm md:text-base text-gray-400 mb-1">
                 Developer Tools :
               </span>{" "}
               Git, Tailwind, Bootstrap, SASS, Webpack
               <br></br>
-              <span className="font-sans font-medium text-sm md:text-base text-gray-500 mb-1">
+              <span className="font-sans font-medium text-sm md:text-base text-gray-400 mb-1">
                 Relevant Skills :
               </span>{" "}
               Web Performance, Web Accessibility, Clean Code, REST API, JSON
