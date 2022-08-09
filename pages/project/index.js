@@ -176,10 +176,10 @@ const contact = () => {
                     Preview
                   </button>
                 </a>
-                <a className="cursor-not-allowed">
+                <a href="https://github.com/arshapradita/Wegraf" target="blank">
                   <button
                     type="button"
-                    className="w-24 md:w-36 lg:w-28 h-10 border-2 cursor-not-allowed mx-auto rounded-lg text-gray-800 border-gray-300 border-solid text-center hover:bg-black hover:border-0 hover:text-white ease-in transition"
+                    className="w-24 md:w-36 lg:w-28 h-10 border-2 mx-auto rounded-lg text-gray-800 border-gray-300 border-solid text-center hover:bg-black hover:border-0 hover:text-white ease-in transition"
                   >
                     Code
                   </button>
