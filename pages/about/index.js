@@ -177,9 +177,14 @@ const about = () => {
             <hr></hr>
             <p className="font-sans font-normal text-sm md:text-base text-left text-gray-400 mt-3 mb-3">
               <span className="font-sans font-medium text-sm md:text-base text-gray-400 mb-1">
+                Microsoft Office :
+              </span>{" "}
+              Word, Excel, Power Point
+              <br></br>{" "}
+              <span className="font-sans font-medium text-sm md:text-base text-gray-400 mb-1">
                 Languages :
               </span>{" "}
-              JavaScript, HTML, CSS, PHP
+              JavaScript, HTML, CSS, PHP, C++
               <br></br>{" "}
               <span className="font-sans font-medium text-sm md:text-base text-gray-400 mb-1">
                 Frameworks :
