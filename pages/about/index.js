@@ -132,7 +132,7 @@ const about = () => {
               <span className="font-sans font-medium text-sm md:text-base text-gray-200 mb-1">
                 IT Staff - PT Safra Asia Berjaya
               </span>{" "}
-              <br></br>( Mey 2020 - June 2021 )
+              <br></br>( May 2020 - June 2021 )
             </p>
             <ul className="list-outside list-disc px-5">
               <li className="font-sans font-normal text-sm md:text-base text-left text-gray-400">
