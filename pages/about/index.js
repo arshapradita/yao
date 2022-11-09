@@ -116,11 +116,11 @@ const about = () => {
             </h1>
             <p className="font-sans font-normal text-sm text-justify md:text-base text-gray-400 mb-5 ">
               Born in kediri and now live in sidoarjo. Currently working
-              freelance for website creation. Im now graduated with a bachelors
-              degree in informatics from Muhammadiyah University of Sidoarjo. In
-              my spare time, i like sleeping, taking photos and learning the
-              latest technology. Field of interests : Front-end developer, UI/UX
-              Design and Administration.
+              freelance for website creation. I'm now graduated with a
+              bachelor's degree in informatics from Muhammadiyah University of
+              Sidoarjo. In my spare time, I like sleeping, taking photos and
+              learning the latest technology. Field of interests : Front-end
+              developer, IT Support and Administration.
             </p>
           </div>
           <div>
@@ -140,12 +140,12 @@ const about = () => {
                 company
               </li>
               <li className="font-sans font-normal text-sm md:text-base text-left text-gray-400">
-                Maintained the company's e-commerce website as well as hardware
-                such as printers and computers in the office
+                Performed troubleshooting of computer devices both hardware and
+                software
               </li>
               <li className="font-sans font-normal text-sm md:text-base text-left text-gray-400">
-                Help make a report on goods that have been sold on the company's
-                e-commerce website
+                Ensured Software, databases and other support systems function
+                properly and safely.
               </li>
             </ul>
             <p className="font-sans font-normal text-sm md:text-base text-justify text-gray-400 mt-3 mb-3">
@@ -153,16 +153,15 @@ const about = () => {
                 Internship - Dinas Perumahan Rakyat, Kawasan Permukiman dan
                 Cipta Karya Provinsi Jawa Timur
               </span>{" "}
-              <br></br>( March 2019 - May 2019 )
+              <br></br>( August 2019 - September 2019 )
             </p>
             <ul className="list-outside list-disc px-5 mb-5">
               <li className="font-sans font-normal text-sm text-left md:text-base text-gray-400">
-                Built a website to display direct and indirect shopping charts
-                in 5-sector fields
+                Built a website to display information on direct and indirect
+                shopping charts in 5 sector areas
               </li>
               <li className="font-sans font-normal text-sm text-left md:text-base text-gray-400">
-                Collected direct and indirect expenditure data in 5-sector
-                sectors
+                Collected direct and indirect expenditure data in 5 sector areas
               </li>
               <li className="font-sans font-normal text-sm text-left md:text-base text-gray-400">
                 Assisted recap data regarding the recapitulation of the proposed
@@ -182,14 +181,14 @@ const about = () => {
               Word, Excel, Power Point
               <br></br>{" "}
               <span className="font-sans font-medium text-sm md:text-base text-gray-400 mb-1">
-                Languages :
+                Programming Language :
               </span>{" "}
-              JavaScript, HTML, CSS, PHP, C++
+              JavaScript, PHP
               <br></br>{" "}
               <span className="font-sans font-medium text-sm md:text-base text-gray-400 mb-1">
                 Frameworks :
               </span>{" "}
-              React (Next), Laravel
+              React (Next), Vue.js, Laravel
               <br></br>
               <span className="font-sans font-medium text-sm md:text-base text-gray-400 mb-1">
                 Developer Tools :
